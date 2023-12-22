@@ -5,7 +5,7 @@ model:
   load_pretrained: True
 
   pretrained: "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/InstructBLIP/instruct_blip_flanxxl_trimmed.pth"
-  finetuned: ''
+  finetuned: 'model.pth'
 
   # vit encoder
   image_size: 224
